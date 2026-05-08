@@ -1,70 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sungchae Park</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Atlas View</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
-      <h1><a href="index.html">Sungchae Park</a></h1>
-      <nav>
-        <ul class="button">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <main class="container main-card">
-      <section class="div1">
-        <div>
-          <p>
-            Software Engineer focused on XR systems, data pipelines, and
-            interactive applications
-          </p>
-          <p>
-            Recent Computer Science graduate from UC Santa Barbara. I build XR
-            applications and data pipelines for large-scale user studies.
-          </p>
+    <div id="body-content">
+      <header>
+        <h1>Altas View</h1>
+        <div id="country-search-bar">
+          <input
+            id="search-bar"
+            type="text"
+            name="country"
+            placeholder="Find country of your interest!"
+          />
+          <button id="country-search-button">Search</button>
         </div>
-      </section>
-      <section class="div1">
-        <h3 class="space1">Featured Projects</h3>
-        <div class="sub-container div1">
-          <h3 class="project-title">XR User Study Generator</h3>
-          <p>
-            Built a Unity-based XR framework to generate counterbalanced
-            experiment trials using Balanced Latin Square design.
-          </p>
-          <p>Tech: Unity, C#, JSON, Meta SDK, Python</p>
-          <a href="projects.html" class="project-detail">View Details</a>
-        </div>
-
-        <div class="sub-container">
-          <h3 class="project-title">XR User Perception Data Analysis</h3>
-          <p>
-            Developed a Python data pipeline to process and analyze large-scale
-            XR experiment logs.
-          </p>
-          <p>Tech: R, JSON, Data Processing, Statistical Analysis</p>
-          <a href="projects.html" class="project-detail">View Details</a>
-        </div>
-      </section>
-    </main>
-    <footer class="footer space2">
-      <p>© 2026 Sungchae Park</p>
-      <div class="footer-links">
-        <a href="https://github.com/0919spark-ctrl">GitHub</a>
-        <a href="https://www.linkedin.com/in/sungchae-park-56024230b"
-          >LinkedIn</a
-        >
-        <a href="mailto:sungchaepark.cs@gmail.com">Email</a>
-      </div>
-    </footer>
+      </header>
+    </div>
   </body>
 </html>
